@@ -16928,6 +16928,7 @@
 	    }
 
 	    _OpenModal(e) {
+	        e.preventDefault();
 	        if (this.editor === EDITORS.DUDA.VALUE) {
 	            let elements = this.context.RelativeDocument().getElementsByClassName("cordial-element");
 
