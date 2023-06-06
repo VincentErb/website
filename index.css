@@ -1,4 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, #051937, #141d3c, #202040, #2c2444, #362848);
+}
+
 h1 {
   text-align: center;
   vertical-align: middle;
 }
+
